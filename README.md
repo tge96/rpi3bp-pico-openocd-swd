@@ -1,8 +1,8 @@
 # rpi3bp-pico-openocd-swd
 
-$ sudo nano /usr/local/share/openocd/scripts/interface/raspberrypi-swd.cfg 
-
 #Problem statement : GPIO 25 and GPIO 24, the openocd-swd defaults, are already being used by my sense-hat board.
+
+$ sudo nano /usr/local/share/openocd/scripts/interface/raspberrypi-swd.cfg 
 
 #change 25 to 21 and 24 to 20
 
